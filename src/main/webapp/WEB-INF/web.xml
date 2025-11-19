@@ -4,6 +4,9 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
 <!--    <welcome-file-list>-->
-<!--        <welcome-file>/a.jsp</welcome-file>-->
+<!--        <welcome-file>/jsp2.jsp</welcome-file>-->
 <!--    </welcome-file-list>-->
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
 </web-app>
