@@ -1,4 +1,4 @@
-package com.poly.main.B2_Hibernate.servlet;
+package com.poly.main.B9_Security.controller;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
@@ -6,17 +6,11 @@ import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 
-@WebServlet(name = "CategoryServlet", value = {
-        "/category/hien-thi",
-        "/category/search",
-        "/category/sort",
-        "/category/add",
-        "/category/detail",
-})
-public class CategoryServlet extends HttpServlet {
+@WebServlet(name = "TestServlet", value = "/test")
+public class TestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+       response.sendRedirect("/a.jsp");
     }
 
     @Override

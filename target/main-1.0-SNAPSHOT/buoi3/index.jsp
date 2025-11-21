@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+<p>Xin chao: ${sessionScope.username}</p>
 <select>
     <c:forEach items="${listCaSi}" var="cs">
         <option value="${cs.id}">${cs.tenCaSy}</option>
