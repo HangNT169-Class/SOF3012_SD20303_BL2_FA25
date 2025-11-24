@@ -11,7 +11,7 @@
         <option value="${cs.id}">${cs.tenCaSy}</option>
     </c:forEach>
 </select>
-
+<a href="/dang-xuat">Đăng xuất</a>
 <table border="1" cellpadding="10" cellspacing="0">
     <thead>
     <tr>
